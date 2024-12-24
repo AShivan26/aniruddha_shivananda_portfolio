@@ -6,7 +6,7 @@ import { PerspectiveCamera } from '@react-three/drei';
 
 import Cube from '../components/Cube.jsx';
 import Rings from '../components/Rings.jsx';
-import ReactLogo from '../components/ReactLogo.jsx';
+import JavaLogo from '../components/JavaLogo.jsx';
 import Button from '../components/Button.jsx';
 import Target from '../components/Target.jsx';
 import CanvasLoader from '../components/Loading.jsx';
@@ -28,7 +28,7 @@ const Hero = () => {
         <p className="sm:text-3xl text-xl font-medium text-white text-center font-generalsans">
           Hi, I am Aniruddha <span className="waving-hand">👋</span>
         </p>
-        <p className="hero_tag text-gray_gradient">Crafting Code, Building Futures</p>
+        <p className="hero_tag text-gray_gradient">Building Futures Together</p>
       </div>
 
       <div className="w-full h-full absolute inset-0">
@@ -44,7 +44,7 @@ const Hero = () => {
 
             <group>
               <Target position={sizes.targetPosition} />
-              <ReactLogo position={sizes.reactLogoPosition} />
+              <JavaLogo position={sizes.javaLogoPosition} />
               <Rings position={sizes.ringPosition} />
               <Cube position={sizes.cubePosition} />
             </group>

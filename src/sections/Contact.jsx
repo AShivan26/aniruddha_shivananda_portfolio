@@ -16,14 +16,16 @@ const Contact = () => {
     setForm({ ...form, [name]: value });
   };
 
+
+  //service_ttqsix9
+
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
 
     emailjs
-      .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+      .send('service_ttqsix9',
+        'template_4k7n05r',
         {
           from_name: form.name,
           to_name: 'Aniruddha Shivananda',
@@ -31,7 +33,7 @@ const Contact = () => {
           to_email: 'ashivan@ncsu.edu',
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY,
+        'myXw1XcjfQPPMnaNj',
       )
       .then(
         () => {
@@ -74,8 +76,7 @@ const Contact = () => {
         <div className="contact-container">
           <h3 className="head-text">Let us talk</h3>
           <p className="text-lg text-white-600 mt-3">
-            Whether you’re looking to build a new website, improve your existing platform, or bring a unique project to
-            life, I’m here to help.
+            I’m here to help, whether you’re looking to develop a new website, optimize your existing platform, or bring a distinctive project to fruition.
           </p>
 
           <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col space-y-7">
@@ -88,7 +89,7 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 className="field-input"
-                placeholder="Pinky"
+                placeholder="Potential Employer"
               />
             </label>
 
@@ -101,7 +102,7 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 className="field-input"
-                placeholder="pinky@gmail.com"
+                placeholder="employer@gmail.com"
               />
             </label>
 
@@ -114,7 +115,7 @@ const Contact = () => {
                 required
                 rows={5}
                 className="field-input"
-                placeholder="What do you have to say..."
+                placeholder="Hi, I am interested in getting a project that does..."
               />
             </label>
 
