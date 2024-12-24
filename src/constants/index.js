@@ -24,7 +24,7 @@ export const navLinks = [
 export const clientReviews = [
   {
     id: 1,
-    name: 'Deniz Gültek',
+    name: 'Deniz Gültek ',
     position: 'Engineering Manager at SIXT',
     img: 'assets/review1.png',
     review:
