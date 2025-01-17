@@ -6,10 +6,12 @@ import Contact from './sections/Contact.jsx';
 import Clients from './sections/Clients.jsx';
 import Projects from './sections/Projects.jsx';
 import WorkExperience from './sections/Experience.jsx';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const App = () => {
   return (
     <main className="max-w-7xl mx-auto relative">
+      <SpeedInsights />
       <Navbar />
       <Hero />
       <About />
