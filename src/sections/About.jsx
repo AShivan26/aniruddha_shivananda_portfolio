@@ -25,7 +25,11 @@ const About = () => {
             <div>
               <p className="grid-headtext">Hi, I&apos;m Aniruddha Shivananda</p>
               <p className="grid-subtext">
-                With 2 years and 7 months of professional experience, I have cultivated expertise in full-stack development, specializing in front-end and back-end engineering, system-level programming, and designing scalable, high-performance applications. I also have hands-on experience implementing microservices and event-driven architectures.              </p>
+                With 2 years and 7 months of professional experience, I have cultivated expertise in full-stack
+                development, specializing in front-end and back-end engineering, system-level programming, and designing
+                scalable, high-performance applications. I also have hands-on experience implementing microservices and
+                event-driven architectures.{' '}
+              </p>
             </div>
           </div>
         </div>
@@ -42,13 +46,21 @@ const About = () => {
                 showGraticules
                 globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
                 bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
-                labelsData={[{ lat: 40, lng: -100, text: 'Raleigh, United States Of America', color: 'white', size: 15 }]}
+                labelsData={[
+                  { lat: 40, lng: -100, text: 'Raleigh, United States Of America', color: 'white', size: 15 },
+                ]}
               />
             </div>
             <div>
               <p className="grid-headtext">I&apos;m very flexible with time zone communications & locations</p>
-              <p className="grid-subtext">I&apos;m currently pursuing a Master&apos;s in Computer Science at North Carolina State University in Raleigh, United States, and I am open to remote opportunities worldwide. I am seeking Summer 2025 internship or co-op roles and will be available for full-time positions after graduating in May 2026.</p>
-              <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
+              <p className="grid-subtext">
+                I&apos;m currently pursuing a Master&apos;s in Computer Science at North Carolina State University in
+                Raleigh, United States, and I am open to remote opportunities worldwide. I am seeking Summer 2025
+                internship or co-op roles and will be available for full-time positions after graduating in May 2026.
+              </p>
+              <a href="#contact" className="w-fit">
+                <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
+              </a>
             </div>
           </div>
         </div>
@@ -66,30 +78,32 @@ const About = () => {
 
               <div className="mt-6 space-y-4">
                 <div>
-                  <h3 className="grid-subheadtext">Languages & Frameworks</h3>
-                  <p className="grid-subtext">
-                    • Java • Spring Boot • C • Python • MATLAB • PromQL • ReactJS • HTML • CSS • JavaScript
-                  </p>
+                  <h3 className="grid-subheadtext">Languages</h3>
+                  <p className="grid-subtext">• Java • C • Python • MATLAB • C#</p>
+                </div>
+
+                <div>
+                  <h3 className="grid-subheadtext">Web Development</h3>
+                  <p className="grid-subtext">• Spring Boot • ReactJS • HTML • CSS • JavaScript</p>
                 </div>
 
                 <div>
                   <h3 className="grid-subheadtext">Databases</h3>
-                  <p className="grid-subtext">
-                    • MySQL • PostgreSQL • MongoDB • SQL • Redis
-                  </p>
+                  <p className="grid-subtext">• MySQL • PostgreSQL • MongoDB • MariaDB • Microsoft Access</p>
                 </div>
 
                 <div>
                   <h3 className="grid-subheadtext">Tools</h3>
                   <p className="grid-subtext">
-                    • Prometheus • Grafana • Jenkins • Kafka • Docker • OpenAPI • Git • Postman • OpenCV • Vulkan
+                    • Prometheus • Grafana • Jenkins • Instana • Kafka • Docker • OpenAPI/Swagger • Git • Postman •
+                    Redis • PromQL • JDBC • OpenCV • Vulkan
                   </p>
                 </div>
 
                 <div>
                   <h3 className="grid-subheadtext">Cloud & Systems</h3>
                   <p className="grid-subtext">
-                    • AWS S3 • Kubernetes • XINU Operating System • Linux/UNIX OS • ThingSpeak
+                    • AWS S3 • Kubernetes • Kibana/OpenSearch • XINU Operating System • Linux/UNIX OS • ThingSpeak
                   </p>
                 </div>
               </div>
@@ -104,8 +118,8 @@ const About = () => {
             <div>
               <p className="grid-headtext">My Passion for Coding</p>
               <p className="grid-subtext">
-                I am passionate about solving problems and creating solutions through code. Programming is not just my
-                profession, but my passion. I thrive on exploring new technologies and continuously improving my skills.
+                I am deeply passionate about unraveling complex problems and crafting innovative solutions through the power of code. Programming isn&apos;t just a career for me—it&apos;s a profound expression of creativity, logic, and the thrill of building something meaningful from the ground up. Every challenge I encounter fuels my curiosity and drives me to think outside the box, pushing the boundaries of what’s possible with technology.
+                The dynamic world of coding excites me as it offers endless opportunities to learn, grow, and make a tangible impact. I find immense joy in exploring cutting-edge technologies, refining my skills, and constantly challenging myself to become a better problem-solver. For me, programming is more than writing code—it’s about envisioning solutions that can transform ideas into reality, and that pursuit is what truly inspires me every single day.
               </p>
             </div>
           </div>
