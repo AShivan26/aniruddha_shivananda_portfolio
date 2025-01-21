@@ -130,7 +130,7 @@ export const myProjects = [
     subdesc:
       'A cutting-edge chat platform powered by modern technologies, offering instant, secure communication with scalability and reliability at its core.',
     href: 'https://github.com/AShivan26/PingMe-BE',
-    texture: '/textures/project/project1.mp4',
+    texture: '/textures/project/pingMe.mp4',
     logo: '/assets/project-logo1.png',
     logoStyle: {
       backgroundColor: '#2A1816',
