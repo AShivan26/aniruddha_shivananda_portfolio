@@ -8,6 +8,7 @@ import { workExperiences } from '../constants/index.js';
 
 const WorkExperience = () => {
   const [animationName, setAnimationName] = useState('idle');
+  const [scale, setScale] = useState(3); // Default scale is 3
 
   return (
     <section className="c-space my-20" id="work">
@@ -23,7 +24,7 @@ const WorkExperience = () => {
               <OrbitControls enableZoom={false} maxPolarAngle={Math.PI / 2} />
 
               <Suspense fallback={<CanvasLoader />}>
-                <Developer position-y={-3} scale={3} animationName={animationName} />
+                <Developer position-y={-3} scale={scale} animationName={animationName} />
               </Suspense>
             </Canvas>
           </div>
@@ -34,8 +35,14 @@ const WorkExperience = () => {
                 <div
                   key={index}
                   onClick={() => setAnimationName(item.animation.toLowerCase())}
-                  onPointerOver={() => setAnimationName(item.animation.toLowerCase())}
-                  onPointerOut={() => setAnimationName('idle')}
+                  onPointerOver={() => {
+                    setAnimationName(item.animation.toLowerCase());
+                    setScale(2); // Zoom out the developer on hover
+                  }}
+                  onPointerOut={() => {
+                    setAnimationName('idle');
+                    setScale(3); // Reset scale when hover ends
+                  }}
                   className="work-content_container group">
                   <div className="flex flex-col h-full justify-start items-center py-2">
                     <div className="work-content_logo">

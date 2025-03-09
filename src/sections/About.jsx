@@ -79,17 +79,17 @@ const About = () => {
               <div className="mt-6 space-y-4">
                 <div>
                   <h3 className="grid-subheadtext">Languages</h3>
-                  <p className="grid-subtext">• Java • C • Python • MATLAB • C#</p>
+                  <p className="grid-subtext">• Java • C • Python • MATLAB • C# • C++</p>
                 </div>
 
                 <div>
                   <h3 className="grid-subheadtext">Web Development</h3>
-                  <p className="grid-subtext">• Spring Boot • ReactJS • HTML • CSS • JavaScript</p>
+                  <p className="grid-subtext">• Spring Boot • ReactJS • HTML • CSS • JavaScript • .NET Framework • WinForms</p>
                 </div>
 
                 <div>
                   <h3 className="grid-subheadtext">Databases</h3>
-                  <p className="grid-subtext">• MySQL • PostgreSQL • MongoDB • MariaDB • Microsoft Access</p>
+                  <p className="grid-subtext">• MySQL • PostgreSQL • MongoDB • MariaDB • Microsoft Access </p>
                 </div>
 
                 <div>
@@ -103,7 +103,7 @@ const About = () => {
                 <div>
                   <h3 className="grid-subheadtext">Cloud & Systems</h3>
                   <p className="grid-subtext">
-                    • AWS S3 • Kubernetes • Kibana/OpenSearch • XINU Operating System • Linux/UNIX OS • ThingSpeak
+                    • AWS S3 • Kubernetes • Kibana/OpenSearch • XINU Operating System • Linux/UNIX OS • ThingSpeak • Open Thread
                   </p>
                 </div>
               </div>

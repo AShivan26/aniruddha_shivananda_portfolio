@@ -229,6 +229,24 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
+    name: 'North Carolina State University',
+    pos: 'Graduate Research Assistant',
+    duration: 'January 2024 - Present',
+    title: "Developed a scalable multi-router Thread network using OpenThread Full Thread Devices (FTDs) on Raspberry Pi and nRF52840, enabling efficient low-power mesh routing over IEEE 802.15.4. Implemented hardcoded PAN ID configurations to facilitate isolated network communication while ensuring seamless device interoperability. Designed a C++ client-server-based controller to efficiently manage network operations, leveraging RCP-based OTBRs for IPv6 compression via 6LoWPAN, real-time parent switching using MLE, and VLAN-based mobility through 802.1Q. Integrated a C++-based orchestration layer to automate failover mechanisms, ensuring resilient and adaptive network handover across routers while maintaining minimal latency in distributed communications.",
+    icon: '/assets/ncsu_logo.png',
+    animation: 'victory',
+  },
+  {
+    id: 2,
+    name: 'The Nonwovens Institute',
+    pos: 'Software Engineer',
+    duration: 'January 2024 - Present',
+    title: "Developed recipe management feature in a C# application, integrating database operations with an intuitive UI for creating and updating recipes. A C# WinForms HMI was designed for automated, database-driven recipe management in advanced polymer synthesis. The system allows users to add new recipes with a specified repetition count while preventing duplicates. It also enables updating existing recipe names with validation to avoid conflicts. Robust logging was implemented using NLog to track key actions and errors, ensuring better maintainability and debugging. The functionality interacts with an Access database (OleDb), handling queries efficiently with secure parameterized statements. Additionally, the DENSO RC8 was configured with gradient-based algorithms, enabling IoT-driven, sub-millimeter precision in polymer deposition. This feature enhances user experience by providing seamless recipe management while maintaining data integrity.",
+    icon: '/assets/NWILogo.jpg',
+    animation: 'clapping',
+  },
+  {
+    id: 3,
     name: 'Sixt Research and Development',
     pos: 'Software Development Engineer 1',
     duration: 'August 2022 - July 2024',
@@ -237,7 +255,7 @@ export const workExperiences = [
     animation: 'victory',
   },
   {
-    id: 2,
+    id: 4,
     name: 'Sixt Research and Development',
     pos: 'Software Development Engineer Intern',
     duration: 'January 2022 - July 2022',
@@ -246,7 +264,7 @@ export const workExperiences = [
     animation: 'clapping',
   },
   {
-    id: 3,
+    id: 5,
     name: 'Samsung Research and Development',
     pos: 'Software Developer Intern',
     duration: 'June 2021 - August 2021',
