@@ -25,10 +25,10 @@ const About = () => {
             <div>
               <p className="grid-headtext">Hi, I&apos;m Aniruddha Shivananda</p>
               <p className="grid-subtext">
-                With 2 years and 7 months of professional experience, I have cultivated expertise in full-stack
-                development, specializing in front-end and back-end engineering, system-level programming, and designing
-                scalable, high-performance applications. I also have hands-on experience implementing microservices and
-                event-driven architectures.{' '}
+              With 4 years of professional experience, I have cultivated expertise in full-stack development, specializing in front-end and back-end engineering, 
+              system-level programming, and designing scalable, high-performance applications. I also have hands-on experience implementing microservices and 
+              event-driven architectures. At NetApp, I worked on AI-driven solutions, including building a Retrieval-Augmented Generation (RAG) system, 
+              enhancing data-driven decision-making and knowledge retrieval capabilities.{' '}
               </p>
             </div>
           </div>
@@ -55,8 +55,7 @@ const About = () => {
               <p className="grid-headtext">I&apos;m very flexible with time zone communications & locations</p>
               <p className="grid-subtext">
                 I&apos;m currently pursuing a Master&apos;s in Computer Science at North Carolina State University in
-                Raleigh, United States, and I am open to remote opportunities worldwide. I am seeking Summer 2025
-                internship or co-op roles and will be available for full-time positions after graduating in May 2026.
+                Raleigh, United States, and I am open to remote opportunities worldwide. I am seeking for full-time positions starting in May 2026.
               </p>
               <a href="#contact" className="w-fit">
                 <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
@@ -79,31 +78,31 @@ const About = () => {
               <div className="mt-6 space-y-4">
                 <div>
                   <h3 className="grid-subheadtext">Languages</h3>
-                  <p className="grid-subtext">• Java • C • Python • MATLAB • C# • C++</p>
+                  <p className="grid-subtext">• Java • C • Python • MATLAB • C# • C++ • PHP • Lua</p>
                 </div>
 
                 <div>
                   <h3 className="grid-subheadtext">Web Development</h3>
-                  <p className="grid-subtext">• Spring Boot • ReactJS • HTML • CSS • JavaScript • .NET Framework • WinForms</p>
+                  <p className="grid-subtext">• Spring Boot • ReactJS • AngularJS • HTML • CSS • JavaScript • TypeScript • .NET Framework • WinForms</p>
                 </div>
 
                 <div>
                   <h3 className="grid-subheadtext">Databases</h3>
-                  <p className="grid-subtext">• MySQL • PostgreSQL • MongoDB • MariaDB • Microsoft Access </p>
+                  <p className="grid-subtext">• ChromaDB • MySQL • PostgreSQL • MongoDB • MariaDB • Microsoft Access </p>
                 </div>
 
                 <div>
                   <h3 className="grid-subheadtext">Tools</h3>
                   <p className="grid-subtext">
-                    • Prometheus • Grafana • Jenkins • Instana • Kafka • Docker • OpenAPI/Swagger • Git • Postman •
-                    Redis • PromQL • JDBC • OpenCV • Vulkan
+                    • AI • Prometheus • Grafana • Jenkins • Instana • Kafka • Docker • OpenAPI/Swagger • Git • Postman • Mantis BT 
+                    • Redis • PromQL • JDBC • OpenCV • MQTT • CoAP • Vulkan
                   </p>
                 </div>
 
                 <div>
                   <h3 className="grid-subheadtext">Cloud & Systems</h3>
                   <p className="grid-subtext">
-                    • AWS S3 • Kubernetes • Kibana/OpenSearch • XINU Operating System • Linux/UNIX OS • ThingSpeak • Open Thread
+                    • AWS S3 • Kubernetes • Kibana/OpenSearch • XINU Operating System • Linux/UNIX OS • ThingSpeak • OpenThread
                   </p>
                 </div>
               </div>

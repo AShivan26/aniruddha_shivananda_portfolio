@@ -25,8 +25,8 @@ export const clientReviews = [
   {
     id: 1,
     name: 'Deniz Gültek ',
-    position: 'Engineering Manager at SIXT',
-    img: 'assets/review1.png',
+    position: 'Senior Engineering Manager at SIXT',
+    img: 'assets/deniz.png',
     review:
       'Aniruddha joined Sixt as an intern on January 10, 2022, and quickly demonstrated his exceptional skills and dedication. His internship lasted until July 31, 2022, during which he engineered a Mobile Check-In Application that optimized our vehicle rental process, significantly reducing time and resource requirements compared to traditional rental counter procedures. His work included attaining 100% service layer code coverage with SonarQube and Spot Bugs integration, ensuring build failure upon detecting bugs, and implementing OpenAPI specifications with automatic code generation to streamline development processes.\n' +
       '\n' +
@@ -41,32 +41,40 @@ export const clientReviews = [
   {
     id: 2,
     name: 'Ammar Ahmad',
-    position: 'Senior Staff Engineer at SIXT Research & Development India',
-    img: 'assets/review2.png',
+    position: 'Architect at Flipkart',
+    img: 'assets/ammar.png',
     review:
       'I had the pleasure of working with Aniruddha for 2.5 years, during which I saw him grow from an intern to a skilled SDE-1. His ability to quickly grasp complex concepts and deliver high-quality work consistently is commendable. He has a strong problem-solving mindset and is always eager to take on new challenges. He is a great team player, and his positive attitude and willingness to help others make him an asset to any team. I have no doubt that he will continue to excel in his career, and I highly recommend him for any role he chooses to pursue.',
   },
   {
-    id: 6,
+    id: 3,
+    name: 'Bruce Anderson',
+    position: 'Research and Development Engineer at NC State University',
+    img: 'assets/bruce.jpeg',
+    review:
+    'My name is Bruce Anderson and I currently work at The Nonwovens Institute, part of NC State University. I am employed as an Engineer responsible for the design and fabrication of equipment for research and development. I have been employed here since 2012. We hired Aniruddha to help finish the development of a piece of software for a critical project. The software is an interface with a small polymer extrusion line that has been custom built. We required additional database support as well as interface with Denso robot and other user interface improvements. Aniruddha also aided in setting up a git repository and additionally was instrumental in documentation. During his time here, Aniruddha was a pleasure to work with. He was punctual with his time and reporting, communicated very well and always had a positive attitude. When there were any questions with the tasks he was given he promptly reached out and was able to take general concepts and requirements and continually produced quality code. Aniruddha will be an asset to any organization and we are going to miss his expertise.'
+  },
+  {
+    id: 4,
     name: 'Mahadev Prabhu',
     position: 'iOS Engineer at SIXT Research & Development India',
-    img: 'assets/review6.png',
+    img: 'assets/mahadev.png',
     review:
       'During his tenure of two years and six months at Sixt Research and Development, I had the privilege of closely collaborating with Aniruddha within the Mobile CheckIn team. Aniruddha\'s contributions proved invaluable, marked by his unwavering dedication to devising sustainable, forward-thinking solutions across all project facets. Serving primarily in backend development, his profound expertise seamlessly complemented our iOS front-end endeavours. Despite the intricate dance of coordinating between front-end and backend systems, Aniruddha not only thrived but excelled in proposing and executing contract alterations that markedly bolstered the efficiency and efficacy of our collaborative efforts. His proactive stance and meticulous attention to detail proved pivotal in pinpointing areas ripe for enhancement and implementing solutions tailored to meet both present and future demands. Aniruddha consistently showcased a profound grasp of intricate technical concepts, adeptly translating them into actionable strategies—a true testament to his prowess and steadfast commitment. Beyond his technical acumen, Aniruddha\'s infectious positivity and collaborative ethos fostered an atmosphere of camaraderie within our team, significantly contributing to our collective triumphs. Without reservation, I wholeheartedly endorse Aniruddha to any organization seeking a backend virtuoso capable of delivering exemplary outcomes while championing innovation and teamwork.',
   },
   {
-    id: 8,
+    id: 5,
     name: 'Khirod Kant Naik',
     position: 'SDE III at SIXT Research & Development India',
-    img: 'assets/review8.png',
+    img: 'assets/khirod.png',
     review:
       'I had briefly worked with Aniruddha when I was transitioning to his team as a senior developer. He demonstrated good technical capability. He learns quickly and retains information well and due to his pleasant personality it is very easy to work with him. I recommend him.',
   },
   {
-    id: 3,
+    id: 6,
     name: 'Liyani Yeri',
     position: 'SDE III at SIXT Research & Development India',
-    img: 'assets/review3.png',
+    img: 'assets/liyani.png',
     review:
       'Aniruddha is an exceptional colleague with unwavering enthusiasm and dedication. During our time at Sixt, he consistently impressed with his rapid pace in completing assignments without compromising quality. His proactive approach ensured deadlines were not just met but often exceeded.\n' +
       '\n' +
@@ -75,28 +83,28 @@ export const clientReviews = [
       'In conclusion, I wholeheartedly recommend Aniruddha for any opportunity. His enthusiasm, dedication, integrity, and problem-solving ability make him a valuable asset to any organisation. I am confident he will continue to excel and make significant contributions wherever his career takes him.',
   },
   {
-    id: 4,
+    id: 7,
     name: 'Amar Malik',
-    position: 'SDE II at SIXT Research & Development India',
-    img: 'assets/review4.png',
+    position: 'SDE III at SIXT Research & Development India',
+    img: 'assets/amar.png',
     review:
       'I have had the pleasure of working alongside Aniruddha for 2 years. During this time, I have witnessed his keen abilities to learn and dedication to their work. Aniruddha is not only a talented developer but also a great team player, always willing to offer assistance and collaborate with others. His positive attitude and eagerness to learn make him a valuable asset to any team. I highly recommend Aniruddha and am confident that he will excel in any role he takes on.',
   },
   {
-    id: 9,
+    id: 8,
     name: 'Vasista TVN',
     position: 'SDET II at Appium',
-    img: 'assets/review9.png',
+    img: 'assets/vasista.png',
     review:
       'Aniruddha\'s demeanor and work ethic make him an invaluable asset to any team. His pleasant and good-natured approach to collaboration fosters a positive working environment, where everyone feels respected and supported. Moreover, his commitment to perfection in delivery is truly commendable. Aniruddha consistently strives for excellence in every task, ensuring that the end product meets and exceeds expectations. His meticulous attention to detail results in projects with zero bugs, reflecting his dedication to quality and reliability.\n' +
       '\n' +
       'Beyond his technical expertise, Aniruddha is a supportive team player who goes above and beyond to assist his colleagues. He willingly shares his knowledge and expertise, providing guidance and mentorship to help others grow. Aniruddha\'s collaborative spirit and helpful demeanor make him not only an outstanding backend developer but also a valuable asset to any project or team. I wholeheartedly recommend him for any role that demands excellence, teamwork, and a commitment to delivering top-notch results.',
   },
   {
-    id: 5,
+    id: 9,
     name: 'Shivaraj Karagera',
     position: 'SDE II at SIXT Research & Development India',
-    img: 'assets/review5.png',
+    img: 'assets/shivaraj.png',
     review:
       'Aniruddha\'s journey within our team, from intern to SDE 1, has been nothing short of remarkable. As an intern, he displayed an unparalleled level of enthusiasm, curiosity, and eagerness to learn. His ability to quickly grasp complex concepts and tackle challenging tasks set him apart, showcasing maturity and dedication beyond his experience level.\n' +
       '\n' +
@@ -105,18 +113,18 @@ export const clientReviews = [
       'It was great to work with him and I wish him all the best for his future.',
   },
   {
-    id: 7,
+    id: 10,
     name: 'Gulshan Kumar',
     position: 'SDE II at SIXT Research & Development India',
-    img: 'assets/review7.png',
+    img: 'assets/gulshan.png',
     review:
       'You rarely come across standout talent like Aniruddha. I enjoyed working with Aniruddha for almost one and a half years at the Sixt, collaborating on several project teams. I am particularly impressed by Aniruddha\'s ability to handle even the toughest job effortlessly. That skill often takes years to develop among software engineering professionals, but it came perfectly naturally to him. Aniruddha would be an asset to any team.',
   },
   {
-    id: 10,
+    id: 11,
     name: 'Shreyas Bhakta',
     position: 'MTS at Vymo',
-    img: 'assets/review10.png',
+    img: 'assets/shreyas.png',
     review:
       'Having worked alongside Aniruddha for a year at SIXT, I can attest to his remarkable dedication and skill as a team member. His notable achievements include implementing Async Kafka Listeners for Business analysis event propagation, pioneering the Chaining method for Business Validations, and leading GRPC migrations, among others. His unwavering commitment to learning and proactive approach to challenges make him a highly valuable asset. I wholeheartedly endorse him to any prospective recruiters or teammates.',
   },
@@ -124,6 +132,47 @@ export const clientReviews = [
 ];
 
 export const myProjects = [
+  {
+    "title": "Care-Link IoT Fall Detection System",
+    "desc": "Care-Link is a real-time fall detection system designed to enhance safety monitoring for vulnerable individuals. Built with Python, C++, and InfluxDB, it features a distributed MQTT pipeline, low-latency telemetry, and automated alerting via DTW-based anomaly detection and SMTP/IFTTT integration.",
+    "subdesc": "A cutting-edge IoT health monitoring platform offering real-time detection, automated emergency responses, and scalable, high-performance telemetry processing.",
+    "href": "https://github.com/AShivan26",
+    "texture": "/textures/project/carelink.mp4",
+    "logo": "/assets/project-logo2.png",
+    "logoStyle": {
+      "backgroundColor": "#1E2A3A",
+      "border": "0.2px solid #2E3B4D",
+      "boxShadow": "0px 0px 60px 0px #1F3A504D"
+    },
+    "spotlight": "/assets/spotlight1.png",
+    "tags": [
+      {
+        "id": 1,
+        "name": "Python",
+        "path": "/assets/python.svg"
+      },
+      {
+        "id": 2,
+        "name": "C++",
+        "path": "/assets/cpp.svg"
+      },
+      {
+        "id": 3,
+        "name": "InfluxDB",
+        "path": "/assets/influxdb.svg"
+      },
+      {
+        "id": 4,
+        "name": "Grafana",
+        "path": "/assets/grafana.svg"
+      },
+      {
+        "id": 5,
+        "name": "MQTT",
+        "path": "/assets/mqtt.svg"
+      }
+    ],
+  },  
   {
     title: 'Chat Application - Ping Me',
     desc: 'Ping Me is a scalable, real-time chat application designed to enhance communication efficiency. Built with Spring Boot microservices and integrated with WebSocket, it ensures seamless messaging and robust security through JWT authentication. Fault-tolerant deployment using Docker and Kubernetes guarantees high availability for users.',
@@ -182,7 +231,7 @@ export const myProjects = [
     subdesc:
       'Upgraded XINU OS with advanced memory management and storage optimization features, enhancing efficiency, reliability, and overall system performance.',
     href: 'https://github.com/AShivan26/XINU-Operating-System',
-    texture: '/textures/project/project2.mp4',
+    texture: '/textures/project/xinu.mp4',
     logo: '/assets/project-logo2.png',
     logoStyle: {
       backgroundColor: '#13202F',
@@ -228,25 +277,34 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 
 export const workExperiences = [
   {
-    id: 1,
-    name: 'North Carolina State University',
-    pos: 'Graduate Research Assistant',
-    duration: 'January 2024 - Present',
-    title: "Developed a scalable multi-router Thread network using OpenThread Full Thread Devices (FTDs) on Raspberry Pi and nRF52840, enabling efficient low-power mesh routing over IEEE 802.15.4. Implemented hardcoded PAN ID configurations to facilitate isolated network communication while ensuring seamless device interoperability. Designed a C++ client-server-based controller to efficiently manage network operations, leveraging RCP-based OTBRs for IPv6 compression via 6LoWPAN, real-time parent switching using MLE, and VLAN-based mobility through 802.1Q. Integrated a C++-based orchestration layer to automate failover mechanisms, ensuring resilient and adaptive network handover across routers while maintaining minimal latency in distributed communications.",
-    icon: '/assets/ncsu_logo.png',
-    animation: 'victory',
+    "id": 1,
+    "name": "NetApp",
+    "pos": "Software Engineer Intern (AI & Systems)",
+    "duration": "May 2025 - Present",
+    "title": "Built a full-stack Appliance Reservation System with Angular and PHP, enabling users and admins to reserve and manage StorageGRID appliances via a web interface.  Developed dashboards displaying model-wise utilization and reservation metrics to guide purchasing and capacity planning. Automated retrieval of power supply, firmware, and hardware details to improve inventory visibility. Optimized weekly caching scripts, reducing execution time from 6 hours to 2 hours. Engineered an automated hardware remediation pipeline using Python for intent extraction and PHP APIs for eligibility validation, reducing processing latency by 98% and eliminating 10 hours of manual admin overhead weekly. Built a RAG-driven triage pipeline utilizing Chroma DB for semantic retrieval across Mantis/Jira logs, implementing automated root-cause analysis to reduce support latency by 40% and boost resolution efficiency by 35%.",
+    "icon": "/assets/netapp_logo.svg",
+    "animation": "victory"
   },
   {
     id: 2,
+    name: 'North Carolina State University',
+    pos: 'Graduate Research Assistant',
+    duration: 'January 2025 - Present',
+    title: "Developed a scalable multi-router Thread network using OpenThread Full Thread Devices (FTDs) on Raspberry Pi and nRF52840, enabling efficient low-power mesh routing over IEEE 802.15.4. Implemented hardcoded PAN ID configurations to facilitate isolated network communication while ensuring seamless device interoperability. Designed a C++ client-server-based controller to efficiently manage network operations, leveraging RCP-based OTBRs for IPv6 compression via 6LoWPAN, real-time parent switching using MLE, and VLAN-based mobility through 802.1Q. Integrated a C++-based orchestration layer to automate failover mechanisms, ensuring resilient and adaptive network handover across routers while maintaining minimal latency in distributed communications.",
+    icon: '/assets/ncsu_logo.png',
+    animation: 'salute',
+  },
+  {
+    id: 3,
     name: 'The Nonwovens Institute',
     pos: 'Software Engineer',
-    duration: 'January 2024 - Present',
+    duration: 'January 2025 - May 2025',
     title: "Developed recipe management feature in a C# application, integrating database operations with an intuitive UI for creating and updating recipes. A C# WinForms HMI was designed for automated, database-driven recipe management in advanced polymer synthesis. The system allows users to add new recipes with a specified repetition count while preventing duplicates. It also enables updating existing recipe names with validation to avoid conflicts. Robust logging was implemented using NLog to track key actions and errors, ensuring better maintainability and debugging. The functionality interacts with an Access database (OleDb), handling queries efficiently with secure parameterized statements. Additionally, the DENSO RC8 was configured with gradient-based algorithms, enabling IoT-driven, sub-millimeter precision in polymer deposition. This feature enhances user experience by providing seamless recipe management while maintaining data integrity.",
     icon: '/assets/NWILogo.jpg',
     animation: 'clapping',
   },
   {
-    id: 3,
+    id: 4,
     name: 'Sixt Research and Development',
     pos: 'Software Development Engineer 1',
     duration: 'August 2022 - July 2024',
@@ -255,7 +313,7 @@ export const workExperiences = [
     animation: 'victory',
   },
   {
-    id: 4,
+    id: 5,
     name: 'Sixt Research and Development',
     pos: 'Software Development Engineer Intern',
     duration: 'January 2022 - July 2022',
@@ -264,7 +322,7 @@ export const workExperiences = [
     animation: 'clapping',
   },
   {
-    id: 5,
+    id: 6,
     name: 'Samsung Research and Development',
     pos: 'Software Developer Intern',
     duration: 'June 2021 - August 2021',
