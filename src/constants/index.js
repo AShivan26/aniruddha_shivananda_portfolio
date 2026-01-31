@@ -136,7 +136,7 @@ export const myProjects = [
     "title": "Care-Link IoT Fall Detection System",
     "desc": "Care-Link is a real-time fall detection system designed to enhance safety monitoring for vulnerable individuals. Built with Python, C++, and InfluxDB, it features a distributed MQTT pipeline, low-latency telemetry, and automated alerting via DTW-based anomaly detection and SMTP/IFTTT integration.",
     "subdesc": "A cutting-edge IoT health monitoring platform offering real-time detection, automated emergency responses, and scalable, high-performance telemetry processing.",
-    "href": "https://github.com/AShivan26",
+    "href": "https://github.com/AShivan26/Care-Link-IoT-Fall-Detection-System",
     "texture": "/textures/project/carelink.mp4",
     "logo": "/assets/project-logo2.png",
     "logoStyle": {
