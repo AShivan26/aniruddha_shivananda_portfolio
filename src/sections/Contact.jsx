@@ -16,16 +16,13 @@ const Contact = () => {
     setForm({ ...form, [name]: value });
   };
 
-
-  //service_ttqsix9
-
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
 
     emailjs
-      .send('service_ttqsix9',
-        'template_4k7n05r',
+      .send('service_j214q8c',
+        'template_d232g9w',
         {
           from_name: form.name,
           to_name: 'Aniruddha Shivananda',
