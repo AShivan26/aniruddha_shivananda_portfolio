@@ -78,7 +78,7 @@ const About = () => {
               <div className="mt-6 space-y-4">
                 <div>
                   <h3 className="grid-subheadtext">Languages</h3>
-                  <p className="grid-subtext">• Java • C • Python • MATLAB • C# • C++ • PHP • Lua</p>
+                  <p className="grid-subtext">• Java • C • Python • Go • Ruby • MATLAB • C# • C++ • PHP • Lua</p>
                 </div>
 
                 <div>
@@ -88,14 +88,14 @@ const About = () => {
 
                 <div>
                   <h3 className="grid-subheadtext">Databases</h3>
-                  <p className="grid-subtext">• ChromaDB • MySQL • PostgreSQL • MongoDB • MariaDB • Microsoft Access </p>
+                  <p className="grid-subtext">• ChromaDB • MySQL • PostgreSQL • MongoDB • MariaDB • Microsoft Access • JDBC • Redis </p>
                 </div>
 
                 <div>
                   <h3 className="grid-subheadtext">Tools</h3>
                   <p className="grid-subtext">
                     • AI • Prometheus • Grafana • Jenkins • Instana • Kafka • Docker • OpenAPI/Swagger • Git • Postman • Mantis BT 
-                    • Redis • PromQL • JDBC • OpenCV • MQTT • CoAP • Vulkan
+                    • PromQL • OpenCV • MQTT • CoAP • Vulkan • Model Context Protocol • A2A • Cucumber
                   </p>
                 </div>
 
